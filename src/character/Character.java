@@ -5,6 +5,8 @@
  */
 package character;
 
+import environment.ApplicationStarter;
+
 /**
  *
  * @author BBC132
@@ -15,7 +17,7 @@ public class Character {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ApplicationStarter.run("Cartman_The_Bad_Ass_Wizard", new CharacterEnvironment());
     }
     
 }
